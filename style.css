@@ -6,4 +6,17 @@
 
 .main-container {
     border: 2px solid red;
+    display: flex;
+}
+
+.hero-segment {
+    border: 2px solid blue;
+    padding: 1em;
+}
+
+.email-form {
+    border: 2px solid yellow;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
 }
