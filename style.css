@@ -4,9 +4,20 @@
     box-sizing: border-box;
 }
 
+ul {
+    list-style: none;
+    display: flex;
+    margin-left: 0;
+}
+
+li {
+    padding: .25em;
+}
+
 .main-container {
     border: 2px solid red;
     display: flex;
+    flex-direction: column;
 }
 
 .hero-segment {
@@ -19,4 +30,10 @@
     padding: 1em;
     display: flex;
     flex-direction: column;
+}
+
+@media only screen and (min-width: 600px) {
+    .main-container {
+        flex-direction: row;
+    }
 }
