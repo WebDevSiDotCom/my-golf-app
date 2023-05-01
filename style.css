@@ -12,6 +12,7 @@ ul {
 
 li {
     padding: .25em;
+    margin-left: o;
 }
 
 .main-container {
@@ -35,5 +36,9 @@ li {
 @media only screen and (min-width: 600px) {
     .main-container {
         flex-direction: row;
+    }
+
+    .email-form {
+        /* flex-direction: row; */
     }
 }
