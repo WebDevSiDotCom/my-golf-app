@@ -33,12 +33,16 @@ li {
     flex-direction: column;
 }
 
+.form-inputs {
+    border: 2px solid green;
+    display: flex;
+    flex-direction: column;
+}
+
 @media only screen and (min-width: 600px) {
     .main-container {
         flex-direction: row;
     }
 
-    .email-form {
-        /* flex-direction: row; */
-    }
+   
 }
