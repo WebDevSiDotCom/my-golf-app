@@ -16,9 +16,11 @@ li {
 }
 
 .main-container {
+    margin: 0 auto;
     border: 2px solid red;
     display: flex;
     flex-direction: column;
+    padding: 1em;
 }
 
 .hero-segment {
