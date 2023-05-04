@@ -4,6 +4,8 @@
     box-sizing: border-box;
 }
 
+/* Nav */
+
 ul {
     list-style: none;
     display: flex;
@@ -14,6 +16,8 @@ li {
     padding: .25em;
     margin-left: o;
 }
+
+/* Main */
 
 .main-container {
     margin: 0 auto;
@@ -28,6 +32,13 @@ li {
     padding: 1em;
 }
 
+/* Form */
+
+.input {
+    margin-bottom: .25rem;
+    font-size: 1.125rem;
+}
+
 .email-form {
     border: 2px solid yellow;
     padding: 1em;
@@ -39,7 +50,20 @@ li {
     border: 2px solid green;
     display: flex;
     flex-direction: column;
+    margin: .125em;
 }
+
+/* Footer */
+
+footer {
+    padding: 1em;
+}
+
+small {
+    padding: .25em;
+}
+
+/* Media Queries */
 
 @media only screen and (min-width: 600px) {
     .main-container {
@@ -48,3 +72,5 @@ li {
 
    
 }
+
+
