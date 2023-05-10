@@ -12,6 +12,11 @@ body, li, input {
 
 /* Nav */
 
+nav {
+    margin: 0 auto;
+    max-width: 85%;
+}
+
 ul {
     list-style: none;
     display: flex;
@@ -37,11 +42,16 @@ a {
     display: flex;
     flex-direction: column;
     padding: 1em;
+    justify-content: center;
+    max-width: 85%;
 }
+
+/* Blurb / Hero */
 
 .hero-segment {
     border: 2px solid blue;
     padding: 1em;
+    margin: 1em;
 }
 
 /* Form */
@@ -56,6 +66,8 @@ a {
     padding: 1em;
     display: flex;
     flex-direction: column;
+    margin: 1em;
+
 }
 
 .form-inputs {
@@ -69,6 +81,8 @@ a {
 
 footer {
     padding: 1em;
+    text-align: center;
+    margin: 0 auto;
 }
 
 small {
