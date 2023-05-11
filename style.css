@@ -77,6 +77,14 @@ a {
     margin: .125em;
 }
 
+/* Button */
+
+.submit-btn {
+    /* max-width: 80%; */
+    margin: .25rem auto;
+    padding: 5rem auto;
+}
+
 /* Footer */
 
 footer {
