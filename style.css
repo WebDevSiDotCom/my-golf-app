@@ -82,7 +82,13 @@ a {
 .submit-btn {
     /* max-width: 80%; */
     margin: .25rem auto;
-    padding: 5rem auto;
+    padding: .5rem 1rem;
+    border-radius: 5px;
+    background-color: whitesmoke;
+    color: black;
+    font-size: 1.25rem;
+    font-family: 'Oxygen', sans-serif;
+    font-weight: bolder;
 }
 
 /* Footer */
