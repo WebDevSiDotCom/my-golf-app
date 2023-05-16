@@ -26,7 +26,7 @@ ul {
 
 li {
     padding: .25em;
-    margin-left: o;
+    margin-left: 0;
 }
 
 a {
@@ -57,8 +57,10 @@ a {
 /* Form */
 
 .input {
-    margin-bottom: .25rem;
+    margin-bottom: .5rem;
     font-size: 1.125rem;
+    padding: .25rem;
+    text-align: center;
 }
 
 .email-form {
@@ -74,21 +76,21 @@ a {
     border: 2px solid green;
     display: flex;
     flex-direction: column;
-    margin: .125em;
+    margin: 0 auto;
+    max-width: 95%;
 }
 
 /* Button */
 
 .submit-btn {
-    /* max-width: 80%; */
     margin: .25rem auto;
     padding: .25rem .5rem;
     border-radius: 5px;
     background-color: whitesmoke;
     color: black;
-    font-size: 1.125rem;
+    font-size: 1rem;
     font-family: 'Oxygen', sans-serif;
-    font-weight: bolder;
+    font-weight: 700;
 }
 
 /* Footer */
