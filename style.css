@@ -15,7 +15,9 @@ body, li, input {
 nav {
     display: flex;
     margin: 0 auto;
+    padding: .5rem;
     max-width: 85%;
+    border: 1px dotted blue;
 }
 
 ul {
@@ -23,7 +25,6 @@ ul {
     display: flex;
     margin-left: 0;
     padding-left: 0;
-
 }
 
 li {
