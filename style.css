@@ -110,8 +110,17 @@ small {
 
 /* Contact Form */
 
+.contact-page {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
 .contact-label {
+    display: flex;
     font-weight: 700;
+    padding: 1rem;
 }
 
 /* Media Queries */
