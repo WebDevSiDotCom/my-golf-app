@@ -114,8 +114,10 @@ small {
     display: flex;
     flex-direction: column;
 }
-
-
+.contact-input {
+    padding: .125rem;
+    margin-left: .125rem;
+}
 
 .contact-label {
     display: flex;
