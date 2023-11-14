@@ -83,9 +83,9 @@ a {
     max-width: 95%;
 }
 
-/* Button */
+/* Buttons */
 
-.submit-btn {
+.join-btn, .submit-btn {
     margin: .25rem auto;
     padding: .25rem .5rem;
     border-radius: 5px;
