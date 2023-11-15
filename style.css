@@ -96,6 +96,10 @@ a {
     font-weight: 700;
 }
 
+.join-btn {
+    display: flex;
+}
+
 /* Footer */
 
 footer {
