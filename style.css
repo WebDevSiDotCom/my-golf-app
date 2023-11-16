@@ -87,7 +87,7 @@ a {
 
 .join-btn, .submit-btn {
     margin: .25rem auto;
-    padding: .25rem .5rem;
+    padding: .5rem .75rem;
     border-radius: 5px;
     background-color: whitesmoke;
     color: black;
