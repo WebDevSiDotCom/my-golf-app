@@ -11,37 +11,26 @@ body, li, input {
 }
 
 /* Nav */
-
-nav {
-    display: flex;
-    margin: 0 auto;
-    padding: .5rem;
-    max-width: 85%;
-    border: 1px dotted blue;
-}
-
 ul {
     list-style: none;
     display: flex;
-    margin-left: 0;
-    padding-left: 0;
 }
 
 li {
-    padding: .25em;
-    margin-left: 0;
+    padding: 1em;
+    text-align: center;
+    margin: 0 auto;
 }
 
 a {
     text-decoration: none;
-    font-weight: bolder;
 }
 
 /* Main */
 
 .main-container {
     margin: 0 auto;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     display: flex;
     flex-direction: column;
     padding: 1em;
@@ -52,7 +41,7 @@ a {
 /* Blurb / Hero */
 
 .hero-segment {
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
     padding: 1em;
     margin: 1em;
 }
@@ -67,7 +56,7 @@ a {
 }
 
 .email-form {
-    border: 2px solid yellow;
+    /* border: 2px solid yellow; */
     padding: 1em;
     display: flex;
     flex-direction: column;
@@ -76,7 +65,7 @@ a {
 }
 
 .form-inputs {
-    border: 2px solid green;
+    /* border: 2px solid green; */
     display: flex;
     flex-direction: column;
     margin: 0 auto;
@@ -132,12 +121,10 @@ small {
 
 /* Media Queries */
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 750px) {
     .main-container {
         flex-direction: row;
-    }
-
-   
+    }   
 }
 
 
